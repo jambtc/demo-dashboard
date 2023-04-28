@@ -37,7 +37,8 @@ $title = 'DEMO Applications';
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">
-                <img src="assets/img/logo.jpg" alt="" class="logo img-fluid">
+                <!-- <img src="assets/img/logo.jpg" alt="" class="logo img-fluid"> -->
+                Demo Applications
             </a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -79,7 +80,7 @@ $title = 'DEMO Applications';
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="card card-image border-0 shadow px-3 py-2">
                             <div class="card-img-icon text-center" style="max-height: 150px;">
-                                <img class="card-img-top p-3 img-responsive" style="width: 150px; height: 150px;" src="<?= "assets/img/applications/" . $application['images'] ?>" alt=""><i></i>
+                                <img class="card-img-top p-3 img-responsive" style="width: 150px; height: 150px;" src="<?= $application['images'] ?>" alt=""><i></i>
                             </div>
                             <div class="card-body p-0">
                                 <h4 class="card-title" title="<?= $application['title'] ?>"><?= $application['title'] ?></h4>
