@@ -4,7 +4,7 @@ if ($_SERVER["HTTPS"] != "on") {
     exit();
 }
 
-$title = 'DEMO Applications';
+$title = 'FIDELITY Applications';
 
 
 ?>
@@ -38,7 +38,7 @@ $title = 'DEMO Applications';
         <div class="container">
             <a class="navbar-brand" href="#page-top">
                 <!-- <img src="assets/img/logo.jpg" alt="" class="logo img-fluid"> -->
-                Demo Applications
+                <?= $title ?>
             </a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu

@@ -29,6 +29,7 @@ scp -r user@website.com:/source/folder/ /destination/folder
 #### 4. Enable site
 ```
 a2ensite apacheconfigfile.conf
+systemctl reload apache2
 ```
 
 #### 5. Create Certificate
